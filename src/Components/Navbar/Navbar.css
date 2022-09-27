@@ -1,0 +1,25 @@
+.nav-bar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.logo{
+    padding-left: 30px;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: white;
+    font-weight: 500;
+}
+.nav-item .active{
+    color: orangered;
+}
+.nav-item a:hover{
+    color: orangered;
+}
